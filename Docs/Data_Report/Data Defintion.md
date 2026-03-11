@@ -16,8 +16,9 @@ _**For ease of modifying this report, placeholder links are included in this pag
 
 | Dataset Name | Original Location   | Destination Location  | Data Movement Tools / Scripts | Link to Report |
 | ---:| ---: | ---: | ---: | -----: |
-| Dataset 1 | Sanger institute | Kaggle; GDSC | [script1.py](link/to/python/script/file/in/Code) |https://www.kaggle.com/datasets/samiraalipour/genomics-of-drug-sensitivity-in-cancer-gdsc  |
-| Dataset 2 | Brief description of its orignal location | Brief description of its destination location | [script2.R](link/to/R/script/file/in/Code) | [Dataset 2 Report](link/to/report2)|
+| GDSC_dataset.csv | Sanger institute | Kaggle; GDSC | [script1.py](link/to/python/script/file/in/Code) |https://www.kaggle.com/datasets/samiraalipour/genomics-of-drug-sensitivity-in-cancer-gdsc  |
+| genomic_features.csv | Sanger institue | cancerxgene.org | [script2.R](link/to/R/script/file/in/Code) | https://www.cancerrxgene.org/downloads/genetic_features?mutation=both|
+| model_list_latest.csv | Sanger institue | sanger institute website | script2.R](link/to/R/script/file/in/Code) | [https://www.cancerrxgene.org/downloads/genetic_features?mutation=both](https://cog.sanger.ac.uk/cmp/download/model_list_20260303.csv) |
 
 
 * Dataset1 summary. <Provide brief summary of the data, such as how to access the data. More detailed information should be in the Dataset1 Report.>
