@@ -19,7 +19,9 @@ _**For ease of modifying this report, placeholder links are included in this pag
 
 * GDSC_dataset.csv - This is the primary dataset for this project, originally produced by the Sanger Institute and accessed through Kaggle, along with 3 additional files. It contains 242,035 rows, each representing a single drug-response experiment in which one cancer cell line was treated with one compound. Key fields include COSMIC_ID, CELL_LINE_NAME, TCGA_DESC (the TCGA cancer type label), DRUG_ID, DRUG_NAME, LN_IC50 (the natural log of the concentration needed to terminate 50% of cancer, the primary prediction target), AUC, Z_SCORE, and several cell-line biological descriptor fields including GDSC Tissue Descriptor 1 and 2, Microsatellite Instability Status (MSI), Screen Medium, Growth Properties, and availability flags for CNA, Gene Expression, and Methylation data.
   
-* Dataset2 summary. <Provide brief summary of the data, such as how to access the data. More detailed information should be in the Dataset2 Report.> 
+* genomic_features.csv - A supplementary file about genomic features matrix produced by the Sanger Institute and downloaded from cancerrxgene.org. It contains approximately 698,000 rows in long format, with one cell per cell line per genetic feature. The join field is COSMIC ID, which maps directly to the COSMIC_ID field in the main GDSC dataset. This file was used both to enrich the preprocessed dataset with gene-level binary mutation flags and to fill missing biological annotations where the Kaggle version of the GDSC dataset was incomplete.
+
+* model_list_latest.csv - 
 
 ## Processed Data
 | Processed Dataset Name | Input Dataset(s)   | Data Processing Tools/Scripts | Link to Report |
