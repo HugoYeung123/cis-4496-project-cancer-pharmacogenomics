@@ -1,12 +1,8 @@
 # Data and Feature Definitions
 
-This document provides a central hub for the raw data sources, the processed/transformed data, and feature sets. More details of each dataset is provided in the data summary report. 
+This document provides a central hub for the raw data sources, the processed/transformed data, and feature set sused in the Cancer Pharmacogenomics project. 
 
-For each data, an individual report describing the data schema, the meaning of each data field, and other information that is helpful for understanding the data is provided. If the dataset is the output of processing/transforming/feature engineering existing data set(s), the names of the input data sets, and the links to scripts that are used to conduct the operation are also provided. 
-
-When applicable, the Interactive Data Exploration, Analysis, and Reporting (IDEAR) utility developed by Microsoft is applied to explore and visualize the data, and generate the data report. Instructions of how to use IDEAR can be found [here](). 
-
-For each dataset, the links to the sample datasets in the _**Data**_ directory are also provided. 
+For each dataset, an individual report describing the data schema, the meaning of each data field, and other relevant contextual information is provided.  Where a dataset is the output of processing or feature engineering on existing datasets, the names of the input datasets and the scripts used to conduct those operations are noted. Sample datasets are stored in the project Data directory.
 
 _**For ease of modifying this report, placeholder links are included in this page, for example a link to dataset 1, but they are just placeholders pointing to a non-existent page. These should be modified to point to the actual location.**_
 
