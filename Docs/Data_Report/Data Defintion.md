@@ -17,7 +17,8 @@ _**For ease of modifying this report, placeholder links are included in this pag
 | model_list_latest.csv | Sanger institue | sanger institute website | script2.R](link/to/R/script/file/in/Code) | [[https://www.cancerrxgene.org/downloads/genetic_features?mutation=both]](https://cellmodelpassports.sanger.ac.uk/downloads)(https://cog.sanger.ac.uk/cmp/download/model_list_20260303.csv) |
 
 
-* GDSC_dataset.csv summary - 
+* GDSC_dataset.csv - This is the primary dataset for this project, originally produced by the Sanger Institute and accessed through Kaggle, along with 3 additional files. It contains 242,035 rows, each representing a single drug-response experiment in which one cancer cell line was treated with one compound. Key fields include COSMIC_ID, CELL_LINE_NAME, TCGA_DESC (the TCGA cancer type label), DRUG_ID, DRUG_NAME, LN_IC50 (the natural log of the concentration needed to terminate 50% of cancer, the primary prediction target), AUC, Z_SCORE, and several cell-line biological descriptor fields including GDSC Tissue Descriptor 1 and 2, Microsatellite Instability Status (MSI), Screen Medium, Growth Properties, and availability flags for CNA, Gene Expression, and Methylation data.
+  
 * Dataset2 summary. <Provide brief summary of the data, such as how to access the data. More detailed information should be in the Dataset2 Report.> 
 
 ## Processed Data
