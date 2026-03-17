@@ -21,7 +21,7 @@ _**For ease of modifying this report, placeholder links are included in this pag
   
 * genomic_features.csv - A supplementary file about genomic features matrix produced by the Sanger Institute and downloaded from cancerrxgene.org. It contains approximately 698,000 rows in long format, with one cell per cell line per genetic feature. The join field is COSMIC ID, which maps directly to the COSMIC_ID field in the main GDSC dataset. This file was used both to enrich the preprocessed dataset with gene-level binary mutation flags and to fill missing biological annotations where the Kaggle version of the GDSC dataset was incomplete.
 
-* model_list_latest.csv - 
+* model_list_latest.csv - A cell line annotation reference file from the Sanger Cell Model Passports database, containing 2,266 rows and 96 columns. Each row corresponds to a unique cancer cell line model. This file was the source behind filling in missing biological annotations in the GDSC dataset that could not be recovered from the Kaggle file itself. The primary join key is COSMIC_ID, same as the genomic features.
 
 ## Processed Data
 | Processed Dataset Name | Input Dataset(s)   | Data Processing Tools/Scripts | Link to Report |
