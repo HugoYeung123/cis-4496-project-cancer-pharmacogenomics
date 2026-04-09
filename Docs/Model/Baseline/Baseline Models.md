@@ -31,6 +31,8 @@ When applicable, the Automated Modeling and Reporting utility developed by TDSP 
 
 * Variable Importance (significance)
   - The high cardinality feature which was separately encoded as DRUG_NAME_target_enc is considered to be the biggest predictor in the baseline feature analysis, showing that identity carried the most weight when it came to the prediction for LN_IC50.
+  - The merged numerical features of ploidy_wes, ploidy_snp6, and mutational burden were among the most informative features for the baseline models.
+  - 
 * Insight Derived from the Model
 
 
