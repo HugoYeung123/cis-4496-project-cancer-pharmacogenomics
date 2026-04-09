@@ -28,7 +28,7 @@ When applicable, the Automated Modeling and Reporting utility developed by TDSP 
 * Performance graphs for parameters sweeps if applicable
 
   
- Model 				      RMSE		  MAE		 R2
+ Model 				     | RMSE		|  MAE		| R2 |
 XGBoost(w/ Optuna)   	1.032373	0.768512   0.8603
 LightGBM(w/ Optuna) 	1.035314  	0.772103   0.859503
 Catboost(w/ Optuna) 	1.050988 	0.784145   0.855216
