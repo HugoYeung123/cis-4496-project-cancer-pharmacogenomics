@@ -26,6 +26,8 @@ When applicable, the Automated Modeling and Reporting utility developed by TDSP 
 ## Results (Model Performance)
 * ROC/Lift charts, AUC, R^2, MAPE as appropriate
 * Performance graphs for parameters sweeps if applicable
+
+  
  Model 				      RMSE		  MAE		 R2
 XGBoost(w/ Optuna)   	1.032373	0.768512   0.8603
 LightGBM(w/ Optuna) 	1.035314  	0.772103   0.859503
