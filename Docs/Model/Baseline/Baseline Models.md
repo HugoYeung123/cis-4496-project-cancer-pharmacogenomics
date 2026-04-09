@@ -30,7 +30,7 @@ When applicable, the Automated Modeling and Reporting utility developed by TDSP 
 ## Model Understanding
 
 * Variable Importance (significance)
-
+  - The high cardinality feature which was separately encoded as DRUG_NAME_target_enc is considered to be the biggest predictor in the baseline feature analysis, showing that identity carried the most weight when it came to the prediction for LN_IC50.
 * Insight Derived from the Model
 
 
