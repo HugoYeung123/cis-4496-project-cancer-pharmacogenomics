@@ -27,6 +27,18 @@ When applicable, the Automated Modeling and Reporting utility developed by TDSP 
 * ROC/Lift charts, AUC, R^2, MAPE as appropriate
 * Performance graphs for parameters sweeps if applicable
 
+| Model | RMSE | MAE | R2 |
+|---|---:|---:|---:|
+| XGBoost(w/ Optuna) | 1.032373 | 0.768512 | 0.8603 |
+| LightGBM(w/ Optuna) | 1.035314 | 0.772103 | 0.859503 |
+| Catboost(w/ Optuna) | 1.050988 | 0.784145 | 0.855216 |
+| HistGradient(w/ Optuna) | 1.099774 | 0.821224 | 0.841463 |
+| Catboost | 1.110923 | 0.829804 | 0.838232 |
+| Extra Trees | 1.2494 | 0.9181 | 0.7954 |
+| Ridge(w/ Optuna) | 1.341 | 1.006 | 0.76426895 |
+| Linear Regression | 1.3443 | 1.0079 | 0.7631 |
+| HistGradient | 1.396169 | 1.047938 | 0.741699 |
+| MLPRegressor | 1.409077 | 1.059455 | 0.7369 |
   
  Model 				     | RMSE		|  MAE		| R2 |
 XGBoost(w/ Optuna)   	1.032373	0.768512   0.8603
